@@ -1,7 +1,7 @@
 {
-    "name": "catalyst",
-    "version": "1.2.2",
-    "description": "A minimal Electron Web Browser",
+    "name": "catalite",
+    "version": "1.0.0",
+    "description": "A throwback to Catalyst v1.x, but more stable.",
     "main": "main/main.js",
     "private": true,
     "scripts": {
@@ -13,13 +13,13 @@
         "publish": "electron-forge publish",
         "make": "electron-forge make"
     },
-    "repository": "https://github.com/JaydenDev/Catalyst",
+    "repository": "https://github.com/jdev082/Catalite",
     "keywords": [
         "Electron",
         "Browser",
         "Internet"
     ],
-    "author": "JaydenDev",
+    "author": "jdev082",
     "license": "MIT",
     "devDependencies": {
         "@electron-forge/cli": "^6.0.0-beta.63",
@@ -49,7 +49,7 @@
                     "config": {
                         "repository": {
                             "owner": "JaydenDev",
-                            "name": "Catalyst"
+                            "name": "Catalite"
                         },
                         "draft": true
                     }
@@ -59,7 +59,7 @@
                 {
                     "name": "@electron-forge/maker-squirrel",
                     "config": {
-                        "name": "catalyst"
+                        "name": "catalite"
                     }
                 },
                 {
