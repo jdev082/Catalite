@@ -17,7 +17,7 @@ function createWindow() {
 			webviewTag: true,
 			nodeIntegration: false
 		},
-		title: "Catalyst",
+		title: "Catalite",
 		icon: path.join(__dirname, "../assets/icon.png"),
 	});
 	mainWindow.setMenuBarVisibility(false);
@@ -67,7 +67,7 @@ try {
 async function checkForUpdate(windowToDialog) {
 	try {
 		const githubFetch = await fetch(
-			"https://api.github.com/repos/JaydenDev/Catalyst/releases"
+			"https://api.github.com/repos/JaydenDev/Catalite/releases"
 		);
 		if (!githubFetch.ok) {
 			// this means that
@@ -86,8 +86,8 @@ async function checkForUpdate(windowToDialog) {
 				Number(replaced.startsWith("v") ? replaced.slice(1) : replaced)
 			) {
 				dialog.showMessageBox(windowToDialog, {
-					message: "An update is available for Catalyst.",
-					detail: `Go to github.com/JaydenDev/Catalyst/releases to install Catalyst ${release["tag_name"]}`,
+					message: "An update is available for Catalite.",
+					detail: `Go to github.com/JaydenDev/Catalite/releases to install Catalite ${release["tag_name"]}`,
 					type: "info",
 				});
 				return;

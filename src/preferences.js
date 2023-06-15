@@ -20,7 +20,7 @@ function togglePreferences() {
 		addCheckboxListener(document.getElementById("pref-bookmarks"), "bookmarks");
 		if (preferences.agent.toString().length > 1) {
 			document.getElementById("pref-useragent").value =
-				preferences.agent || "Catalyst/{{version}}";
+				preferences.agent || "Catalite/{{version}}";
 		} else {
 			document.getElementById("pref-useragent").value = preferences.agent;
 		}
