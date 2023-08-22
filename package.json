@@ -28,7 +28,7 @@
         "@electron-forge/maker-rpm": "^6.1.1",
         "@electron-forge/maker-squirrel": "^6.1.1",
         "@electron-forge/maker-zip": "^6.1.1",
-        "@electron-forge/publisher-github": "^6.1.1",
+        "@electron-forge/publisher-github": "^6.4.1",
         "concurrently": "^8.2.0",
         "electron": "^25.1.1",
         "electron-reloader": "^1.2.3",
